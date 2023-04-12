@@ -3,3 +3,6 @@
 *.iml
 *.class
 *.xml
+*.lst
+/target/
+*.jar
