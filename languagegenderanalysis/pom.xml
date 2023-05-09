@@ -30,6 +30,13 @@
             <scope>provided</scope>
             <version>${spark.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-ml -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_${scala.compat.version}</artifactId>
+            <scope>provided</scope>
+            <version>${spark.version}</version>
+        </dependency>
 
     </dependencies>
 
